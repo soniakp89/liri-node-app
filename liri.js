@@ -92,7 +92,7 @@ function doWhatItSays() {
             return console.log(error);
         }
         var random = data.split(",");
-        spotifyThis(random[1]);
+        spotifyThisSong(random[1]);
     });
 
 }
